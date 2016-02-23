@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Save Site</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div id="openingimage">
+	<img src="images/openingimage.png">
+</div>
+<!-- ANIMAL DASH -->
+<div id="animalBox">
+	<img src="images/wavingtwo.png">
+	<p class="bear" id="facts">Bear facts</p>
+</div>
+
+
+<div id="promptBox">
+	<!-- START PAGE -->
+	<div class="prompts" id="begin_page" >
+		<p class="new_title" id="begin_title"><img src="images/saveblue.png"</p>
+		<p class="subtitle">You don't always have to sacrifice to live sustainably</p>
+		<p class="sub_2" id="what">What??</p>
+		<p class="sub_2" id="why">Why??</p>
+		<p class="sub_2" id="start">Start Here </p>
+		<!-- will eventually put big background pic here -->
+	</div>
+
+	<!-- DIRECTIONS PAGE -->
+	<div class="prompts" id="directions" style="display:none;">
+		<p class = "prompt_text_header">How to play</p>
+		<p class = "desc_text">Answer the following questions about your habits, to the best of your ability. Watch your elements score, and your annual savings, increase or decrease with each small behavior. Watch as the element score changes the behavior of the polar bear.</p>
+		<p class="sub_2" id="directions_read"> Onward </p>
+	</div>
+
+
+	<!--QUESTION 1-->
+	<div class="prompts" id="q1">
+		<p class="desc_text">Where do you live?</p>
+		<p class="sub_2" id="q1_a1">U.S.A.</p>
+		<p class="sub_2" id="q1_a2">Canada</p>
+		<p class="sub_2" id="q1_a3">Europe</p>
+		<p class="sub_2" id="q1_a4">South America</p>
+		<p class="sub_2" id="q1_a5">Australia</p>
+	</div>
+
+	<!-- RESULTS 1 -->
+	<div class="prompts" id="r1">
+		<p class="desc_text" id="q1_result"></p>
+		<p class="sub_2" id="q2_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 2 -->
+	<div class="prompts" id="q2">
+		<p class="desc_text">How often do you eat animal-based products?</p>
+		<p class="sub_2" id="q2_a1">Never (vegan AF.)</p>
+		<p class="sub_2" id="q2_a2">Infrequently (no meat; eggs/dairy a few times per week)</p>
+		<p class="sub_2" id="q2_a3">Occasionally (no/occasional meat; eggs/dairy almost daily)</p>
+		<p class="sub_2" id="q2_a4">Often (meat a few times per week; eggs/dairy almost daily)</p>
+		<p class="sub_2" id="q2_a5">Very often (every meal. America.) </p>
+	</div>
+
+	<!-- RESULTS 2 -->
+	<div class="prompts" id="r2">
+		<p class="desc_text" id="q2_result"></p>
+		<p class="sub_2" id="q3_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 3 -->
+	<div class="prompts" id="q3">
+		<p class="desc_text">What best describes your home?</p>
+		<p class="sub_2" id="q3_a1">Free standing house</p>
+		<p class="sub_2" id="q3_a2">Multi-story apartment building</p>
+		<p class="sub_2" id="q3_a3">Duplex or building with 2-4 housing units</p>
+		<p class="sub_2" id="q3_a4">Luxury condominium</p>
+		<p class="sub_2" id="q3_a5">Green-designed residence</p>
+	</div>
+
+	<!-- RESULTS 3 -->
+	<div class="prompts" id="r3">
+		<p class="desc_text" id="q3_result"></p>
+		<p class="sub_2" id="q4_start"> Onward </p>
+	</div>
+
+
+	<!-- QUESTION 4 -->
+	<div class="prompts" id="q4">
+		<p class="desc_text">How many people are in your household?</p>
+		<p class="sub_2" id="q4_a1">I live alone</p>
+		<p class="sub_2" id="q4_a2">2</p>
+		<p class="sub_2" id="q4_a3">3</p>
+		<p class="sub_2" id="q4_a4">4</p>
+		<p class="sub_2" id="q4_a5">5</p>
+		<p class="sub_2" id="q4_a6">6 or more</p>
+	</div>
+
+	<!-- RESULTS 4 -->
+	<div class="prompts" id="r4">
+		<p class="desc_text" id="q4_result"></p>
+		<p class="sub_2" id="q5_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 5 -->
+	<div class="prompts" id="q5">
+		<p class="desc_text">About how much do you pay for electricity every month?</p>
+		<p class="sub_2" id="q5_a1">A little ($5-$150)</p>
+		<p class="sub_2" id="q5_a2">Decent amount ($150-$300)</p>
+		<p class="sub_2" id="q5_a3">An arm and a leg ($300-$500)</p>
+	</div>
+
+	<!-- RESULTS 5 -->
+	<div class="prompts" id="r5" style="display:none;">
+		<p class="desc_text" id="q5_result"></p>
+		<p class="sub_2" id="q6_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 6 -->
+	<div class="prompts" id="q6">
+		<p class="desc_text">What do you typically pay for gas every month?</p>
+		<p class="sub_2" id="q6_a1">A little ($5-$150)</p>
+		<p class="sub_2" id="q6_a2">Decent amount ($150-$300)</p>
+		<p class="sub_2" id="q6_a3">My firstborn child ($300-$500)</p>
+	</div>
+	<!-- RESULTS 6 -->
+		<div class="prompts" id="r6">
+		<p class="desc_text" id="q6_result"></p>
+		<p class="sub_2" id="q7_start"> Onward </p>
+	</div>
+	<!-- QUESTION 7 -->
+	<div class="prompts" id="q7">
+		<p class="desc_text">How do you typically commute?</p>
+		<p class="sub_2" id="q7_a1">Car (alone)</p>
+		<p class="sub_2" id="q7_a2">Carpool</p>
+		<p class="sub_2" id="q7_a3">Bus</p>
+		<p class="sub_2" id="q7_a4">Subway</p>
+		<p class="sub_2" id="q7_a5">Bike</p>
+		<p class="sub_2" id="q7_a6">Walk</p>
+	</div>
+	<!-- RESULTS 7 -->
+	<div class="prompts" id="r7">
+		<p class="desc_text" id="q7_result"></p>
+		<p class="sub_2" id="q8_start"> Onward </p>
+	</div>
+	<!-- QUESTION 8 -->
+	<div class="prompts" id="q8">
+		<p class="desc_text">How much do you fly each year?</p>
+		<p class="sub_2" id="q8_a1">XXX short flights (less than an hour and a half or about 300 miles)</p>
+		<p class="sub_2" id="q8_a2">XXX long flights</p>
+	</div>
+	<!-- RESULTS 8 -->
+	<div class="prompts" id="r8" style="display:none;">
+		<p class="desc_text" id="q8_result"></p>
+		<p class="sub_2" id="q9_start"> Onward </p>
+	</div>
+	<!-- QUESTION 9 -->
+		<div class="prompts" id="q9">
+		<p class="desc_text">When it comes to purchasing clothes, where do you tend to shop?</p>
+		<p class="sub_2" id="q9_a1">Fast fashion retailers</p>
+		<p class="sub_2" id="q9_a2">Department store</p>
+		<p class="sub_2" id="q9_a3">Online</p>
+		<p class="sub_2" id="q9_a4">Second hand</p>
+		<p class="sub_2" id="q9_a5">What's wrong with the clothes I have now?</p>
+	</div>
+	<!-- RESULTS 9 -->
+	<div class="prompts" id="r9" style="display:none;">
+		<p class="desc_text" id="q9_result"></p>
+		<p class="sub_2" id="q10_start"> Onward </p>
+	</div>
+	<!-- QUESTION 10 -->
+	<div class="prompts" id="q10">
+		<p class="desc_text">When you leave your home, do you unplug any of your appliances?</p>
+		<p class="sub_2" id="q10_a1">Never, they all keep each other company</p>
+		<p class="sub_2" id="q10_a2">I leave just the basics plugged in, like cable and internet, so I don't have to wait for them to start up when I get home</p>
+		<p class="sub_2" id="q10_a3">I don't leave anything plugged in unless I'm currently using it. My power strips' defaults are switched off.</p>
+	</div>
+	<!-- RESULTS 10 -->
+	<div class="prompts" id="r10">
+		<p class="desc_text" id="q10_result"></p>
+		<p class="sub_2" id="q11_start"> Onward </p>
+	</div>
+	<!-- QUESTION 11 -->
+	<div class="prompts" id="q11">
+		<p class="desc_text">Do you leave lights on when you're not using them?</p>
+		<p class="sub_2" id="q11_a1">Uh, I leave the TV on for the dog, so...</p>
+		<p class="sub_2" id="q11_a2">I'm pretty good about using only the lights I need, but I am pretty forgetful when I leave my bathroom or the apartment.</p>
+		<p class="sub_2" id="q11_a3">I will sit in near darkness unless I really need to see.</p>
+	</div>
+
+	<!-- RESULTS 11 -->
+	<div class="prompts" id="r11">
+		<p class="desc_text" id="q11_result"></p>
+		<p class="sub_2" id="q12_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 12 -->
+	<div class="prompts" id="q12">
+		<p class="desc_text">How do you get your daily caffeine fix?</p>
+		<p class="sub_2" id="q12_a1">I brew coffee/tea at home</p>
+		<p class="sub_2" id="q12_a2">At the local shop, but I always bring my own thermos</p>
+		<p class="sub_2" id="q12_a3">I just get it at Starbucks everyday</p>
+		<p class="sub_2" id="q12_a4">I'm naturally full of energy - no caffeine here</p>
+	</div>
+	<!-- RESULTS 12 -->
+	<div class="prompts" id="r12" style="display:none;">
+		<p class="desc_text" id="q12_result"></p>
+		<p class="sub_2" id="q13_start"> Onward </p>
+	</div>
+	<!-- QUESTION 13 -->
+	<div class="prompts" id="q13">
+		<p class="desc_text">How much do you recycle?</p>
+		<p class="sub_2" id="q13_a1">Not a whole lot</p>
+		<p class="sub_2" id="q13_a2">About half of what I probably could recycle</p>
+		<p class="sub_2" id="q13_a3">Literally everything</p>
+		<p class="sub_2" id="q13_a4">I even compost</p>
+	</div>
+
+	<!-- RESULTS 13 -->
+	<div class="prompts" id="r13">
+		<p class="desc_text" id="q13_result"></p>
+		<p class="sub_2" id="q14_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 14 -->
+	<div class="prompts" id="q14">
+		<p class="desc_text">What kind of cleaning products do you buy</p>
+		<p class="sub_2" id="q14_a1">What else is there besides the bleach and chemical stuff?</p>
+		<p class="sub_2" id="q14_a2">I make a point to buy "green" cleaning products</p>
+		<p class="sub_2" id="q14_a3">I stick to the double-duty stuff - vinegar, baking soda</p>
+	</div>
+
+	<!-- RESULTS 14 -->
+	<div class="prompts" id="r14">
+		<p class="desc_text" id="q14_result"></p>
+		<p class="sub_2" id="q15_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 15 -->
+	<div class="prompts" id="q15">
+		<p class="desc_text">What kind of light bulbs do you buy?</p>
+		<p class="sub_2" id="q15_a1">Um, the regular kind?</p>
+		<p class="sub_2" id="q15_a2">I love LED lamps</p>
+		<p class="sub_2" id="q15_a3">My mom got me into buying compact fluorescents</p>
+	</div>
+
+	<!-- RESULTS 15 -->
+	<div class="prompts" id="r15">
+		<p class="desc_text" id="q15_result"></p>
+		<p class="sub_2" id="q16_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 16 -->
+	<div class="prompts" id="q16">
+		<p class="desc_text">How do you usually manage your thermostat in the winter?</p>
+		<p class="sub_2" id="q16_a1">Crank it. I want it to feel like Miami when I walk in the door.</p>
+		<p class="sub_2" id="q16_a2">My heater is so loud and dry. I leave it low or off and just layer up on the sweats.</p>
+	</div>
+	<!-- RESULTS 16 -->
+	<div class="prompts" id="r16">
+		<p class="desc_text" id="q16_result"></p>
+		<p class="sub_2" id="q17_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 17 -->
+	<div class="prompts" id="q17">
+		<p class="desc_text">Describe your water usage habits.</p>
+		<p class="sub_2" id="q17_a1">Sometimes I take a long hot shower or bath when I'm bored</p>
+		<p class="sub_2" id="q17_a2">I'm pretty good, but ever since I was a child I've been leaving the faucet running while I brush my teeth</p>
+		<p class="sub_2" id="q17_a3">I brush my teeth in the shower</p>
+		<p class="sub_2" id="q17_a4">I salvage every drop I don't use, and I harass my landlord to make sure he keeps the thermostat no higher than 140 degrees F</p>
+	</div>
+	<!-- RESULTS 17 -->
+	<div class="prompts" id="r17" style="display:none;">
+		<p class="desc_text" id="q17_result"></p>
+		<p class="sub_2" id="q18_start"> Onward </p>
+	</div>
+
+	<!-- QUESTION 18 -->
+	<div class="prompts" id="q18">
+		<p class="desc_text">How often do you do laundry?</p>
+		<p class="sub_2" id="q18_a1">Once a week, like clockwork, I wash whatever I've worn since I last did laundry</p>
+		<p class="sub_2" id="q18_a2">Towels and sheets once a week, the rest maybe every 2-3 weeks</p>
+		<p class="sub_2" id="q18_a3">When I'm out of underwear...I buy more underwear. And when I'm out of <i>that</i> underwear, I'll do laundry. Comes out to about once a month.</p>
+		<p class="sub_2" id="q18_a4">I wash my sheets and undergarments about every week or two. Everything else I only wash if I've managed to spill on it</p>
+	</div>
+	<!-- RESULTS 18 -->
+	<div class="prompts" id="r18" style="display:none;">
+		<p class="desc_text" id="q18_result"></p>
+		<p class="sub_2" id="q19_start"> Onward </p>
+	</div>
+	<!-- QUESTION 19 -->
+	<div class="prompts" id="q19">
+		<p class="desc_text">How often do you check to make sure your fridge is working efficiently?</p>
+		<p class="sub_2" id="q19_a1">I'm supposed to be doing that?</p>
+		<p class="sub_2" id="q19_a2">Only if I see some food spoilage</p>
+		<p class="sub_2" id="q19_a3">I put a thermometer in there so I can check the temp regularly</p>
+		<p class="sub_2" id="q19_a4">I regularly defrost it to keep it working in top shape</p>
+	</div>
+	<!-- RESULTS 19 -->
+	<div class="prompts" id="r19">
+		<p class="desc_text" id="q19_result"></p>
+		<p class="sub_2" id="q20_start"> Onward </p>
+	</div>
+	<!-- QUESTION 20 -->
+	<div class="prompts" id="q20">
+		<p class="desc_text">Do you use plastic bags?</p>
+		<p class="sub_2" id="q20_a1">As opposed to what...?</p>
+		<p class="sub_2" id="q20_a2">I always forget to bring my non-disposable bags to the store, but I always reuse the plastic ones for small trashcans</p>
+		<p class="sub_2" id="q20_a3">I don't even buy anything that has too much packaging, and I carry extra reusable bags almost always</p>
+
+	</div>
+	<!-- RESULTS 20 -->
+	<div class="prompts" id="r20" style="display:none;">
+		<p class="desc_text" id="q20_result"></p>
+		<p class="sub_2" id="what_now">What now?</p>
+	</div>
+
+	<div class="prompts" id="final" style="display:none;">
+		<p class="sub_2" id="more_bear_info"><a href= "http://wwf.panda.org/about_our_earth/aboutcc/problems/impacts/species/polar_bears/"> Want more information on polar bears?</a></p> -->
+		<p class="sub_2" id="more_green_info"><a href= "http://www.epa.gov/learn-issues/greener-living-resources#at-home">More info on how to save money and energy on your own?</a></p>
+		<p class="sub_2" id="go_back">Let me see how the polar bear fares if I make a few changes</p>
+	</div>
+</div>
+
+
+<!-- DASHBOARD -->
+<div id="dashboard" style="display:none;">
+	<div id="element_dash">
+		<div class="dash_icons">
+		<!-- 	<div class="lmnts_photos" id="all"><img src="images/three.png"></div> -->
+			<div class="lmnts_photos" id="cloud"><img src="images/cloud.png"></div>
+			<div class="lmnts_photos" id="drop"><img src="images/drop.png"></div>
+			<div class="lmnts_photos" id="leaf"><img src="images/leaf.png"></div>
+		</div>	
+		<div class="progress"> 
+			<div class="progress_measure" id="carbon">
+				<div id="carbon_number">carbon</div>
+			</div>
+
+			<div class= "progress_measure" id="water">
+				<div id="water_number">water</div>
+			</div>
+
+			<div class="progress_measure" id="land">
+				<div id="land_number">land</div>
+			</div>
+		</div>
+
+	<div id="moneyDash">
+		<!-- <p id="dollar">$</p> -->
+		<div class="savings_amt" id="savings">savings</div>
+	</div>
+
+	<div id="livesDash" style="display:none;">
+		<div class="lives" id="life1"><img src="images/fish.png"></div>
+		<div class="lives" id="life2"><img src="images/fish.png"</div>
+		<div class="lives" id="life3">
+		<img src="images/fish.png"></div>
+</div>
+
+<!-- TITLE -->
+<!-- <div id="game_title">
+	<h1>Site</h1>
+</div> -->
+
+
+<img src="images/withbabies.png" id="reproduce" style="visibility:hidden;">
+<img src="images/wavingtwo.png" id="neutral" style="visibility:hidden;">
+<img src="images/icestuck" id="isStuck" style="visibility:hidden;">
+
+	<script src="main.js"></script>
+</body>
+</html>

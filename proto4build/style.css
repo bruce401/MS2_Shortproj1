@@ -1,0 +1,359 @@
+.show_content{
+	display:none;
+}
+
+body {
+	background-color:#b0d4ee;
+	font-family: 'Helvetica', sans-serif;
+	margin:0;
+	overflow:scroll;
+	display:inline-block;
+	/*flex-direction:row;*/
+	justify-content:center;
+}
+
+#promptBox{
+/*	height:80vw;
+	width:125vw;
+	margin-top:200;*/
+/*	left:25vw;
+*//*	display:inline-flex;*/	
+/*	justify-content:center;*/
+	position: absolute;
+	left:400px;
+	right:400px;
+	padding:20px;
+	color:white;
+	top:50px;
+}
+#openingimage{
+	position:fixed;
+	top:-50%;
+	left:-50%;
+	width:200%;
+	height:200%;
+}
+
+#openingimage img{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	min-width:50%;
+	min-height:50%;
+}
+#what{
+	display:inline;
+	color:white;
+}
+
+#why{
+	display:inline;
+	color:white;
+}
+#directions{
+	color:#0E4648;
+}
+.prompts{
+	position: relative;
+	font-size:2em;
+	text-align: center;
+	height:auto;
+	color:white;
+}
+
+
+
+#begin_title{
+	position:relative;
+}
+
+#begin_title img{
+	height:85%;
+	width:85%;
+}
+
+.subtitle{
+	position: relative;
+	font-size:1em;
+	text-align: center;
+	height:auto;
+	color:white;
+}
+
+.sub_2{
+	position: relative;
+	font-size:1.5vw;
+	text-align:center;
+}
+
+.sub_2:hover{
+	color:#0E4648;
+	cursor:pointer;
+}
+
+#game_title{
+	position:absolute;
+	display:none;
+	color:white;
+}
+
+
+.prompt_text_header{
+	position: relative;
+	font-size:1.5em;
+	text-align: center;
+	height:auto;
+}
+
+.desc_text{
+	position: relative;
+	font-size:1em;
+	text-align: center;
+	height:auto;
+}
+
+#dashboard{
+	/*height:100vw;
+	width:25vw;*/
+/*	background-color:rgba(255, 255, 255, 0.2);
+*/	position:absolute;
+	right:0px;
+	width:300px;
+	padding:5px;
+	height:80vw;
+	color:white;
+}
+
+#element_dash{
+	position:absolute;
+	top:20vh;
+	width:300px;
+	font-size:4em;
+/*	text-align:center;
+*/	content-justify:center;
+	color:white;
+}
+
+.dash_icons{
+	position:absolute;
+}
+
+/*.lmnts_photos{
+	position:absolute;
+}*/
+
+.progress{
+	position:absolute;
+	right:5px;
+	color:white;
+}
+
+.progress_measure{
+	position:relative;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+}
+
+/*#carbon{
+	background-image:url("images/cloud.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-origin:center center;
+	left:0;
+}
+
+#water{
+	background-image:url("images/drop.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-origin:center center;	
+}
+
+#land{
+	background-image:url("images/leaf.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-origin:center center;
+}*/
+
+/*need to move numbers down*/
+
+#moneyDash{
+	position:absolute;
+	top:40vh;
+	width:300px;
+	font-size:1em;
+	color:white;
+}
+
+
+#animalBox{
+	display:none;
+	position:absolute;
+	left:0px
+	padding:10px;
+	width:300px;
+	color:white;
+}
+
+#animalBox img{
+	width:150%;
+	height:150%;
+	top:50px;
+}
+
+/*#livesDash{
+	position:absolute;
+	display:inline-block;
+}*/
+
+
+#q1{
+	display:none;
+}
+
+
+#r1{
+	display:none;
+}
+
+#q2{
+	display:none;
+}
+
+#r2{
+	display:none;
+}
+
+#q3{
+	display:none;
+}
+
+#r3{
+	display:none;
+}
+
+#q4{
+	display:none;
+}
+
+#r4{
+	display:none;
+}
+
+#q5{
+	display:none;
+}
+
+#r5{
+	display:none;
+}
+
+#q6{
+	display:none;
+}
+
+#r6{
+	display:none;
+}
+
+#q7{
+	display:none;
+}
+
+#r7{
+	display:none;
+}
+
+#q8{
+	display:none;
+}
+
+#q9{
+	display:none;
+}
+
+#q10{
+	display:none;
+}
+
+#r10{
+	display:none;
+}
+
+#q11{
+	display:none;
+}
+
+#r11{
+	display:none;
+}
+#q15{
+	display:none;
+}
+
+#r15{
+	display:none;
+}
+
+#q12{
+	display:none;
+}
+
+#r12{
+	display:none;
+}
+
+#q13{
+	display:none;
+}
+
+#r13{
+	display:none;
+}
+
+#q14{
+	display:none;
+}
+
+#r14{
+	display:none;
+}
+
+
+
+#q16{
+	display:none;
+}
+
+#r16{
+	display:none;
+}
+
+#q17{
+	display:none;
+}
+
+#q18{
+	display:none;
+}
+
+#q19{
+	display:none;
+}
+
+#r19{
+	display:none;
+}
+
+#q20{
+	display:none;
+}
+
+#r20{
+	display:none;
+}
